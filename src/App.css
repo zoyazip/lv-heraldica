@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Kyiv';
-    src: url('C:/Users/chern/Documents/Gerboni/heraldica/public/Fonts/Dmitry Rastvortsev - KyivType Sans Bold-.otf');
+    src: url('public/Fonts/DmitryRastvortsev-KyivTypeSansBold.otf');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Kyiv';
-    src: url('C:/Users/chern/Documents/Gerboni/heraldica/public/Fonts/Dmitry Rastvortsev - KyivType Sans Regular3.otf');
+    src: url('public/Fonts/DmitryRastvortsev-KyivTypeSansRegular3.otf');
     font-weight: normal;
     font-style: normal;
 }
