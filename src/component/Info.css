@@ -1,0 +1,38 @@
+.Info {
+    cursor: pointer;
+}
+
+.Info img {
+    position: relative;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.infoModal {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #282828;
+    border-radius: 20px;
+    z-index: 999;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1700px) {
+    .infoModal {
+        right: 120px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .infoModal {
+        right: 5vw;
+        margin-top: 10px;
+    }
+}

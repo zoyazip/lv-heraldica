@@ -1,0 +1,18 @@
+.AnswerList {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.correctAnswer {
+    background-color: #138539;
+    transition: .3s ease-out;
+}
+
+.correctAnswer span{
+    color: #fff;
+}

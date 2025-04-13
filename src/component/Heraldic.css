@@ -1,0 +1,12 @@
+.Heraldic img {
+    max-width: 572px;
+    width: 90vw;
+    transition: .3s ease-out
+}
+
+@media only screen and (max-width: 1000px) {
+  .Heraldic img {
+    max-width: none;
+    width: 60vw;
+}
+}

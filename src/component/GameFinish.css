@@ -1,0 +1,26 @@
+.GameFinish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result p, h1 {
+    margin: 10px;
+    padding: 0px;
+}
+
+.result img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) { 
+    .result {
+        flex-direction: column;
+    }
+}
