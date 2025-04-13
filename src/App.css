@@ -1,17 +1,3 @@
-@font-face {
-    font-family: 'Kyiv';
-    src: url('public/Fonts/DmitryRastvortsev-KyivTypeSansBold.otf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Kyiv';
-    src: url('public/Fonts/DmitryRastvortsev-KyivTypeSansRegular3.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .App {
     height: 100vh;
     display: flex;
