@@ -29,7 +29,7 @@ const Footer = ( {hasFinished, getTime, userScore, total} ) => {
             clearInterval(intervalId)
         }
         return () => clearInterval(intervalId)
-    }, [hasFinished])
+    }, [hasFinished, getTime, timer])
 
     return (
         <div className='Footer'>
